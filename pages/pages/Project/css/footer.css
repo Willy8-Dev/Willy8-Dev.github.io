@@ -39,6 +39,10 @@ footer a{
     color: #fff;
 }
 
+footer a:hover{
+    color: #0f0;
+}
+
 .footerlist{
     height: 80%;
 }
@@ -59,10 +63,6 @@ ul.child{
 
 ul.child li{
     padding: 5px 0;
-}
-
-ul.child li a:hover{
-    color: #0f0;
 }
 
 ul.social{
