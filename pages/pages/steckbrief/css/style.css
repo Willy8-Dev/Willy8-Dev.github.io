@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap');
+
+/*---------------------
+            Reset
+            ---------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: asap;
+}
+
+nav.main-nav {
+    display: none;
+}
+
+/*---------------------
+            Layout
+            ---------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0 20px;
+}
+
+p,
+h2,
+h3 {
+    padding-bottom: 1em;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+#foto {
+    display: block;
+    border: #000 2px solid;
+    margin: auto;
+}
+
+h1 {
+    padding-top: 2em;
+}
+
+header {
+    height: 30vh;
+}
+
+.my-flexbox {
+    display: block;
+}
+
+.my-skills article {
+    width: 100%;
+}
+
+/*---------------------
+            Navigation
+            ---------------------*/
+nav.mobile-nav,
+nav.main-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #323c46cc;
+}
+
+nav.main-nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+nav.main-nav ul li {
+    margin-right: 2px;
+}
+
+nav.mobile-nav ul li a,
+nav.main-nav ul li a {
+    color: #000;
+    text-decoration: none;
+    background-color: #ffffffb3;
+    padding: 1px 5px;
+}
+
+nav.mobile-nav ul li a:hover,
+nav.main-nav ul li a:hover {
+    background-color: #ff8000;
+    color: #fff;
+}
+
+nav.mobile-nav {
+    background-color: transparent;
+    height: 50px;
+    overflow-y: hidden;
+}
+
+nav.mobile-nav ul li {
+    margin-bottom: 3px;
+}
+
+nav.mobile-nav ul li a {
+    display: inline-block;
+    background-color: #ffffffe6;
+    font-size: 2.5em;
+    width: 100%;
+}
+
+.burger-icon {
+    height: 50px;
+    background-color: #142832b3;
+    padding: 10px 0 0 10px;
+}
+
+.burger-icon i {
+    font-size: 1.3em;
+}
+
+/*---------------------
+            Color & Style
+            ---------------------*/
+
+header {
+    background-image: url(../img/travel-4514822_1280.png);
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    background-color: rgb(180, 190, 200);
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.my-about {
+    background-color: #ff8000;
+}
+
+.my-skills {
+    background-color: #0fd149;
+}
+
+/*---------------------
+            Responsive Design
+            ---------------------*/
+
+@media only screen and (min-width: 600px) {
+    nav.mobile-nav {
+        display: none;
+    }
+
+    nav.main-nav {
+        display: block;
+    }
+
+    body {
+        font-size: 1em;
+    }
+
+    .my-flexbox {
+        display: flex;
+    }
+
+    .my-skills article {
+        width: 33, 33%;
+    }
+}
+/* background-color: #0fd149 */
