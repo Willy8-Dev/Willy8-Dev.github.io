@@ -50,7 +50,7 @@ footer a{
 .footerdiv{
     height: 30%;
     padding: 0 20px;
-}
+}        
 
 ul.child{
     border-bottom: 1px #fff solid;
@@ -59,6 +59,10 @@ ul.child{
 
 ul.child li{
     padding: 5px 0;
+}
+
+ul.child li a:hover{
+    color: #0f0;
 }
 
 ul.social{
