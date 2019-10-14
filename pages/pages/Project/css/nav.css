@@ -38,7 +38,7 @@ nav a{
 .nav-mobile{
     position: fixed;
     width: 100%;
-    height: 70px;
+    height: 60px;
     bottom: 0;
     overflow: hidden;
     background-color: #ff8000;
