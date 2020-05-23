@@ -29,7 +29,7 @@ function App() {
                 <h4>Zusammenfassung</h4>
               </div>
               <div>
-                <p className="lead">Über die Zeit der Ausbildung wurden mehrer Projekte angefangn.</p>
+                <p className="lead">Über die Zeit der Ausbildung wurden mehrere Projekte angefangn.</p>
               </div>
             </Col>
           </Row>
